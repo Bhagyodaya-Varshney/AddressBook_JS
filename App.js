@@ -179,3 +179,8 @@ console.log("Count of contacts by city and state:", addressBook.getContactCountB
 
 // Sorting contacts by name
 addressBook.sortContactsByName();
+
+// Sorting contacts by city, state, and zip
+addressBook.sortByCity();
+addressBook.sortByState();
+addressBook.sortByZip();
